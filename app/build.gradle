@@ -1,4 +1,5 @@
 apply plugin: 'com.android.application'
+apply plugin: 'realm-android'
 
 android {
     compileSdkVersion 23
@@ -18,6 +19,11 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+
+    dataBinding{
+        enabled true
+    }
+
     productFlavors {
     }
 }
