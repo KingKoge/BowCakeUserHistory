@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "822856565325",
+    "firebase_url": "https://bowcakemember.firebaseio.com",
+    "project_id": "bowcakemember",
+    "storage_bucket": "bowcakemember.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:822856565325:android:6a34b9a66ae3bba3",
+        "android_client_info": {
+          "package_name": "com.ssru.mrsmile.bowcakeuserhistory"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "822856565325-73t50on2h39vuh1rh9vtr9389i5me4h8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ssru.mrsmile.bowcakeuserhistory",
+            "certificate_hash": "FC526A8CC20FB6A8F38FC4CD7ECE2B9832D4F2FB"
+          }
+        },
+        {
+          "client_id": "822856565325-i20m9djov7974uccghg9j7ittfn7e2be.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBc_NVVZkjl534Bs6jJEswI93y39Wl0-Lc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "822856565325-i20m9djov7974uccghg9j7ittfn7e2be.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
