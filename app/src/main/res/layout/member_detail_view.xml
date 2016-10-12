@@ -3,20 +3,21 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="horizontal"
-    android:padding="8dp">
+    android:padding="@dimen/default_margin_padding_normal">
 
     <ImageView
         android:id="@+id/member_detail_view_iv_member_image"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:padding="4dp"
-        android:src="@mipmap/ic_launcher" />
+        android:layout_width="@dimen/member_detail_width_image"
+        android:layout_height="@dimen/member_detail_height_image"
+        android:padding="@dimen/default_margin_padding_small"
+        android:src="@drawable/ic_member_default"
+        android:scaleType="centerCrop"/>
 
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_vertical"
-        android:layout_marginLeft="8dp"
+        android:layout_marginLeft="@dimen/default_margin_padding_large"
         android:orientation="vertical">
 
         <TextView
@@ -27,13 +28,13 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
+            android:layout_marginTop="@dimen/default_margin_padding_normal"
             android:text="@string/member_detail_view_title_address" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
+            android:layout_marginTop="@dimen/default_margin_padding_normal"
             android:text="@string/member_detail_view_title_tel" />
     </LinearLayout>
 
@@ -41,28 +42,25 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center_vertical"
-        android:layout_marginLeft="8dp"
+        android:layout_marginLeft="@dimen/default_margin_padding_normal"
         android:layout_weight="1"
         android:orientation="vertical">
 
         <TextView
             android:id="@+id/member_detail_view_tv_member_name"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="name" />
+            android:layout_height="wrap_content" />
 
         <TextView
             android:id="@+id/member_detail_view_tv_member_address"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
-            android:text="address" />
+            android:layout_marginTop="@dimen/default_margin_padding_normal" />
 
         <TextView
             android:id="@+id/member_detail_view_tv_member_tel"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
-            android:text="tel" />
+            android:layout_marginTop="@dimen/default_margin_padding_normal" />
     </LinearLayout>
 </LinearLayout>
