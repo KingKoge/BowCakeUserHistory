@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_add_member"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ssru.mrsmile.bowcakeuserhistory.member.add.AddMemberActivity">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="@dimen/default_margin_padding_large">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/add_member_iv_member_picture"
+                        android:layout_width="@dimen/size_width_image"
+                        android:layout_height="@dimen/size_height_image"
+                        android:src="@drawable/ic_member_default" />
+
+                    <Button
+                        android:id="@+id/add_member_btn_edit_picture"
+                        style="@style/DefaultButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="@dimen/default_margin_padding_normal"
+                        android:enabled="false"
+                        android:text="@string/string_text_edit_picture" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/default_margin_padding_large"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical">
+
+                    <TextView
+                        style="@style/DefaultTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/string_text_firstname" />
+
+                    <EditText
+                        android:id="@+id/add_member_edt_member_first_name"
+                        style="@style/DefaultEditText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/string_text_firstname" />
+
+                    <TextView
+                        style="@style/DefaultTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/string_text_lastname" />
+
+                    <EditText
+                        android:id="@+id/add_member_edt_member_last_name"
+                        style="@style/DefaultEditText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/string_text_lastname" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                style="@style/DefaultTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/default_margin_padding_large"
+                android:text="@string/string_text_company" />
+
+            <EditText
+                android:id="@+id/add_member_edt_member_company"
+                style="@style/DefaultEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/string_text_company" />
+
+            <TextView
+                style="@style/DefaultTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/default_margin_padding_normal"
+                android:text="@string/string_text_email" />
+
+            <EditText
+                android:id="@+id/add_member_edt_member_email"
+                style="@style/DefaultEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/string_text_email"
+                android:inputType="textEmailAddress" />
+
+            <TextView
+                style="@style/DefaultTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/default_margin_padding_normal"
+                android:text="@string/string_text_tel" />
+
+            <EditText
+                android:id="@+id/add_member_edt_member_tel"
+                style="@style/DefaultEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/string_text_tel"
+                android:inputType="phone" />
+
+            <TextView
+                style="@style/DefaultTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/default_margin_padding_normal"
+                android:text="@string/string_text_address" />
+
+            <EditText
+                android:id="@+id/add_member_edt_member_address"
+                style="@style/DefaultEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="top"
+                android:hint="@string/string_text_address"
+                android:inputType="text"
+                android:maxLines="5"
+                android:minLines="5" />
+
+            <Button
+                android:id="@+id/add_member_btn_save"
+                style="@style/DefaultButton"
+                android:layout_width="@dimen/add_member_width_btn_save"
+                android:layout_height="@dimen/add_member_height_btn_save"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/default_margin_padding_normal"
+                android:text="@string/string_text_save" />
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+</FrameLayout>
+
+

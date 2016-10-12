@@ -8,4 +8,20 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="DefaultTextView">
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">@dimen/default_text_size</item>
+    </style>
+
+    <style name="DefaultEditText">
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">@dimen/default_text_size</item>
+    </style>
+
+    <style name="DefaultButton">
+        <item name="android:background">@drawable/selector_default_background_button</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/default_text_size</item>
+    </style>
+
 </resources>
